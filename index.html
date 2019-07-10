@@ -5,20 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="main.css" />
   <title>tax_cal</title>
-
 </head>
 
 <body>
-
   <div class="TAX_CAL">
     <p>TAX_CAL</p>
-    <input type="text" id="okane" placeholder="税別価格" size="40" value="" onclick="getvalue();" />
+    <input type="text" span id="okane" placeholder="税別価格" size="40" value="100" />
     <input type="text" id="tax" placeholder="8% -> 1.08" size="40" value="1.08" />
-    <br><br>
-    <input type="text" id="kekka" placeholder="税込価格" size="40" readonly="readonly" />
-    <br> <br>
-    <button type="button" class="btn btn-secondary">計算</button>　
+    <br /><br />
+    <input type="text" span id="kekka" placeholder="税込価格" size="40" />
+    <br />
+    <br />
+    <button type="button" class="btn btn-secondary" onclick="cal()" />
+    計算
+    </button>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -29,9 +31,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="main.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <script src="cal.js"></script>
 </body>
 

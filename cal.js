@@ -1,3 +1,6 @@
-function getvalue(okane) {
-    document.getElementById('okane').innerHTML = "我が輩は犬である。";
+function cal() {
+    const zeibetu = document.getElementById("okane").value;
+    const tax = document.getElementById("tax").value;
+    const calc = zeibetu * tax;
+    document.getElementById("kekka").value = calc;
 }
