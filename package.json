@@ -18,7 +18,7 @@
   "homepage": "https://github.com/muda3/tax_cal#readme",
   "dependencies": {
     "jquery": "^3.4.1",
-    "materialize-css": "^1.0.0-rc.2"
+    "materialize-css": "^1.0.0"
   },
   "devDependencies": {
     "electron-load-devtool": "^1.2.0"

@@ -13,25 +13,16 @@
 
   <div class="TAX_CAL">
     <p>TAX_CAL</p>
-    <input type="text" 　name="okane" size="40" />
-    <br>　<br>
-    <input type="text" 　name="kekka" size="40" />
+    <input type="text" id="okane" placeholder="税別価格" size="40" value="" onclick="getvalue();" />
+    <input type="text" id="tax" placeholder="8% -> 1.08" size="40" value="1.08" />
+    <br><br>
+    <input type="text" id="kekka" placeholder="税込価格" size="40" readonly="readonly" />
     <br> <br>
-    <div class="dropdown">
-      <button type="button" id="dropdown1" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-        aria-haspopup="true" aria-expanded="false">
-        Dropdown button
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdown1">
-        <a class="dropdown-item" href="#">Menu #1</a>
-        <a class="dropdown-item" href="#">Menu #2</a>
-        <a class="dropdown-item" href="#">Menu #3</a>
-      </div>
-    </div>
+    <button type="button" class="btn btn-secondary">計算</button>　
   </div>
-  <script>
-    window.$ = require('jquery');
-  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
@@ -41,6 +32,7 @@
   <link rel="stylesheet" type="text/css" href="main.css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="cal.js"></script>
 </body>
 
 </html>
