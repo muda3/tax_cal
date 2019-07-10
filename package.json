@@ -1,0 +1,26 @@
+{
+  "name": "tax_cal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muda3/tax_cal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muda3/tax_cal/issues"
+  },
+  "homepage": "https://github.com/muda3/tax_cal#readme",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "electron-load-devtool": "^1.2.0"
+  }
+}
