@@ -15,8 +15,8 @@ app.on("ready", function () {
   // ブラウザ(Chromium)の起動, 初期画面のロード
   mainWindow = new BrowserWindow({ width: 400, height: 340 });
   mainWindow.loadURL("file://" + __dirname + "/index.html");
-  loadDevtool(loadDevtool.REDUX_DEVTOOLS);
-  mainWindow.openDevTools();
+  //loadDevtool(loadDevtool.REDUX_DEVTOOLS);
+  //mainWindow.openDevTools();
   mainWindow.on("closed", function () {
     mainWindow = null;
   });
